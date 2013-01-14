@@ -15,7 +15,6 @@ kterm*|xterm)
 esac
 
 # alias
-alias ls='ls -al --color'
 alias du='du -h'
 alias df='df -h'
 
