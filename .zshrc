@@ -3,7 +3,11 @@
 export LANG=ja_JP.UTF-8
 
 # prompt
-PROMPT="%B%{[31m%}%/%%%{[m%}%b "
+autoload colors
+colors
+PROMPT="
+%{${fg[yellow]}%}[%~]%{${reset_color}%} 
+%{${fg[red]}%}[%n]$ %{${reset_color}%}"
 
 # ターミナルのタイトルにユーザ@ホスト:カレントディレクトリを表示
 case "${TERM}" in

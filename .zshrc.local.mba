@@ -1,2 +1,5 @@
 # alias
 alias ls='ls -alG'
+
+# applications
+alias sublimetext='open -a Sublime\ Text\ 2'
