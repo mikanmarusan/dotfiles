@@ -1,0 +1,10 @@
+# settings for Node.js
+export PATH=~/.npm-global/bin:$PATH
+
+# Settings for Claude Code
+alias claude="/Users/chiaki/.claude/local/claude"
+alias ccusage='npx ccusage@latest'
+
+# Settings for other applications
+alias coteditor='open -a CotEditor'
+eval "$(/opt/homebrew/bin/brew shellenv)"
