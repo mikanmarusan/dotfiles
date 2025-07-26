@@ -1,5 +1,12 @@
 # alias
 alias ls='ls -alG'
 
+
+alias claude="/Users/chiaki/.claude/local/claude"
+export PATH=~/.npm-global/bin:$PATH
+
 # applications
-alias sublimetext='open -a Sublime\ Text\ 2'
+alias coteditor='open -a CotEditor'
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+alias ccusage='npx ccusage@latest'
