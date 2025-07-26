@@ -2,7 +2,7 @@
 export PATH=~/.npm-global/bin:$PATH
 
 # Settings for Claude Code
-alias claude="/Users/chiaki/.claude/local/claude"
+alias claude="${HOME}/.claude/local/claude"
 alias ccusage='npx ccusage@latest'
 
 # Settings for other applications
