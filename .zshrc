@@ -1,4 +1,4 @@
-# Created by newuser for 4.3.12
+# zshrc for mac
 
 export LANG=ja_JP.UTF-8
 
@@ -21,6 +21,10 @@ esac
 # alias
 alias du='du -h'
 alias df='df -h'
+alias ls='ls -alG'
+
+# LSCOLORS
+export LSCOLORS=gxfxcxdxbxegedabagacad
 
 # 補完
 autoload -U compinit
