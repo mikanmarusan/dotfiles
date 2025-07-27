@@ -18,8 +18,8 @@ set showmatch       " 対応する括弧やブレースを表示する
 set matchtime=1     " 表示時間
 set autoindent      " 自動インデント
 set cindent         " C言語用のインデント
-set mouse=a         " マウスを有効にする
-set ttymouse=xterm2 " 
+"set mouse=a         " マウスを有効にする
+"set ttymouse=xterm2 " 
 
 " ----------
 " 日本語
